@@ -8,3 +8,6 @@ print(dict_name.get('d', 'No existe')) # No existe
 
 
 noExiste = dict_name.get('d')
+
+if noExiste:
+    print('Existe')
