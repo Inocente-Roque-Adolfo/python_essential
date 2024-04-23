@@ -11,3 +11,5 @@ noExiste = dict_name.get('d')
 
 if noExiste:
     print('Existe')
+else:
+    print('No existe')
